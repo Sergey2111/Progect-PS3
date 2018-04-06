@@ -1,0 +1,38 @@
+@import url("css/normalize.css");
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix::after,
+.container:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.template-top1{
+    width: 100%;
+    margin: auto;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    max-width: 966px;
+    background-color: #ffffff;
+}
+.red{
+    color: red;
+}
+span{
+    font-size: 10px;
+}
+img{
+    cursor: pointer;
+}
+.right{
+    float: right;
+    font-size: 10px;
+}
